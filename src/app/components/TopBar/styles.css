@@ -1,0 +1,7 @@
+.top-bar-main {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #d1e0ed;
+}
