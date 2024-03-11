@@ -3,7 +3,11 @@ import './styles.css';
 const SideNavigation = () => {
     return (
         <div className="side-navigation">
-            SideNavigation
+            <div>
+                SideNavigation
+                SideNavigation1
+                SideNavigation2
+            </div>
         </div>
     )
 }

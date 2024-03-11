@@ -4,4 +4,6 @@
     display: flex;
     flex-direction: column;
     background-color: #d1e0ed;
+    position: sticky;
+    top: 0;
 }
