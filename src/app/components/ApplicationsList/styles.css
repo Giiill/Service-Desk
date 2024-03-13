@@ -1,0 +1,54 @@
+.container__applications{
+    padding: 30px;
+}
+
+.styled-button{
+    background-color: #42AAFF;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 180px;
+    border: #42AAFF 1px solid;
+    border-radius: 100px;
+}
+
+table {
+    table-layout: fixed;
+    max-width: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  thead th:nth-child(1) {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    width: 5%;
+  }
+  
+  thead th:nth-child(2) {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    width: 30%;
+  }
+  
+  thead th:nth-child(3) {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    width: 15%;
+  }
+
+  thead th:nth-child(5) {
+    width: 35%;
+  }
+
+  
+  th,
+  td {
+    padding: 20px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  
