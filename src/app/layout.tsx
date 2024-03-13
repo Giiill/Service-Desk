@@ -2,7 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { SideNavigation } from "./components/SideNavigation/SideNavigation";
 import { TopBar } from "./components/TopBar/TopBar";
+import { Roboto } from 'next/font/google'
 
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: "400"
+})
 
 export const metadata: Metadata = {
   title: "Service Desk",
@@ -17,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={roboto.className}>
       <body>
         <SideNavigation />
         <main className="container">

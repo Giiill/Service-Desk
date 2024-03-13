@@ -1,3 +1,5 @@
+import ApplicationsList from "./components/ApplicationsList/ApplicationsList";
+
 export default function Home() {
-  return <h1>Hello World!</h1>;
+  return <ApplicationsList />
 }
