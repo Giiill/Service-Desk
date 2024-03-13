@@ -6,5 +6,74 @@
     background-color: #002137;
     color: #ffffff;
     position: sticky;
-    top: 0;
+    align-items: center;
+    /* top: 0; */
+}
+.logo-image {
+    width: 51.6px;
+    height: 44px;
+    margin: 20px 0px 0px 0px;
+}
+.btn-div {
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+.application-btn {
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 55px;
+    height: 19px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;  
+    cursor: pointer;
+    border: none;
+}
+
+.employee-btn {
+    width: 91px;
+    height: 19px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.employee-div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee-image {
+    width: 50px;
+    height: 37px;
+}
+
+.settings-div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.setting-btn {
+    width: 91px;
+    height: 19px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #FFFFFF; 
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.setting-image {
+    width: 60px;
+    height: 45px;
 }
