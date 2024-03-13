@@ -1,0 +1,23 @@
+{
+    "applications": [
+        {
+            "id": "1" ,
+            "name": "Reinstall windows",
+            "status": "Открыта",
+            "executor": "Nikita Nikita"
+        },
+        {
+            "id": "2",
+            "name": "Delete computer",
+            "status": "Закрыта",
+            "executor": "Artem Artem"
+        },
+        {
+            "id": "3",
+            "name": "Clear stash",
+            "status": "В работе",
+            "executor": "Nik Nik"
+        }
+
+    ]
+}
