@@ -2,8 +2,38 @@
     height: 65px;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    background-color: #d1e0ed;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #D1E0ED;
     position: sticky;
     top: 0;
+}
+.top-bar-input {
+    width: 680px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #42AAFF;
+}
+
+.top-bar-input::placeholder {
+    float: right;
+}
+.user-info-div {
+    width: 208px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.name-surname-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.main-image {
+    border-radius: 50%;
 }

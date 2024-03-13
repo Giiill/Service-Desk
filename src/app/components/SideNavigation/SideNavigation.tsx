@@ -8,13 +8,12 @@ import SettingsImage from './images/Настройки.png'
 const SideNavigation = () => {
     return (
         <div className="side-navigation">
-
             <div className='btn-div'>
             <Image
             src={Logo}
             alt="My Image"
             className='logo-image'
-        />
+            />
         <div className='application-div'>
             <Image
             src={ApplicationImage}
