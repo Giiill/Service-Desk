@@ -1,9 +1,9 @@
 import './styles.css';
 import Image from 'next/image';
-import Logo from'./images/Логотип.png'
-import ApplicationImage from'./images/ЗаявкиСВГ.png'
-import EmployeeImage from './images/Сотрудники.png'
-import SettingsImage from './images/Настройки.png'
+import Logo from'./images/Logo.svg'
+import ApplicationImage from'./images/Application.svg'
+import EmployeeImage from './images/Employees.svg'
+import SettingsImage from './images/Settings.svg'
 
 const SideNavigation = () => {
     return (
@@ -18,9 +18,8 @@ const SideNavigation = () => {
             <Image
             src={ApplicationImage}
             alt="My Image"
-            className='logo-image'
+            className='application-image'
             />
-            <button className='application-btn'>Заявки</button>
         </div>
 
         <div className='employee-div'>
@@ -29,7 +28,6 @@ const SideNavigation = () => {
             alt="My Image"
             className='employee-image'
             />
-            <button className='employee-btn'>Сотрудники</button>
         </div>
 
         <div className='settings-div'>
@@ -38,7 +36,6 @@ const SideNavigation = () => {
             alt="My Image"
             className='setting-image'
             />
-            <button className='setting-btn'>Настройки</button>
         </div>
 
             </div>
