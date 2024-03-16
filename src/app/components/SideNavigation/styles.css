@@ -53,7 +53,7 @@
     height: 79px;
 }
 
-@media (max-width:680px) {
+@media (max-width:720px) {
     .application-image {
         width: 77px;
         height: 77px;
