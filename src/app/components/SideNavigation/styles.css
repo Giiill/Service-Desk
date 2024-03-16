@@ -52,3 +52,18 @@
     width: 91px;
     height: 79px;
 }
+
+@media (max-width:680px) {
+    .application-image {
+        width: 77px;
+        height: 77px;
+    }
+    .employee-image {
+        width: 88px;
+        height: 54px;
+    }
+    .settings-image {
+        width: 70px;
+        height: 40px;
+    }
+}
