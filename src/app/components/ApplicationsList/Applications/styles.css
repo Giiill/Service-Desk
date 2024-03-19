@@ -1,0 +1,29 @@
+.app-status {
+    border: 1px solid #42AAFF;
+    height: 30px;
+    width: 120px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FF0000;
+}
+
+.app-status__inwork {
+    border: 1px solid #42AAFF;
+    height: 30px;
+    width: 120px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FF9900;
+}
+
+.app-status__done {
+    border: 1px solid #42AAFF;
+    height: 30px;
+    width: 120px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #40D50B;
+}
