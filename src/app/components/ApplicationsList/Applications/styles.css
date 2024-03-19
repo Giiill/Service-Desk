@@ -1,5 +1,5 @@
 .app-status {
-    border: 1px solid #000;
+    border: 1px solid #42AAFF;
     height: 30px;
     width: 120px;
     border-radius: 50px;
@@ -9,7 +9,7 @@
 }
 
 .app-status__inwork {
-    border: 1px solid #000;
+    border: 1px solid #42AAFF;
     height: 30px;
     width: 120px;
     border-radius: 50px;
@@ -19,7 +19,7 @@
 }
 
 .app-status__done {
-    border: 1px solid #000;
+    border: 1px solid #42AAFF;
     height: 30px;
     width: 120px;
     border-radius: 50px;
