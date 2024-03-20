@@ -13,13 +13,20 @@
     width: 680px;
     height: 40px;
     border-radius: 20px;
-    border: 1px solid #42AAFF;
+    padding-left: 17px; 
+    font-size: 17px;
+    border: 0px;
+    
 }
 
 .top-bar-input::placeholder {
     float: right;
     margin-right: 15px;
 }
+.top-bar-input:active {
+    border: 0px;
+}
+
 .user-info-div {
     width: 208px;
     height: 50px;
@@ -38,7 +45,20 @@
 .main-image {
     border-radius: 50%;
 }
-
+.top-bar-searching {
+    position: relative; 
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid #42AAFF;
+    font-size: 17px;
+}
+.loupe-input {
+    position: absolute; 
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%); 
+    cursor: pointer;
+}
 @media (max-width:720px) {
     
     .top-bar-input {
