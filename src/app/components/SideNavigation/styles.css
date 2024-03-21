@@ -1,6 +1,6 @@
 .side-navigation {
     height: 100vh;
-    width: 120px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     background-color: #002137;
@@ -9,8 +9,9 @@
     align-items: center;
 }
 .logo-image {
-    width: 52px;
-    height: 44px;
+    width: 72px;
+    height: 54px;
+    margin-top: 10px;
 }
 .btn-div {
     width: 50%;
@@ -23,10 +24,6 @@
     flex-direction: column;
     align-items: center;
 }
-.application-image {
-    width: 100px;
-    height: 100px;
-}
 
 .employee-div {
     margin-top: 20px;
@@ -35,35 +32,9 @@
     align-items: center;
 }
 
-.employee-image {
-    width: 91px;
-    height: 69px;
-}
-
 .settings-div {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-
-.setting-image {
-    width: 91px;
-    height: 79px;
-}
-
-@media (max-width:720px) {
-    .application-image {
-        width: 77px;
-        height: 77px;
-    }
-    .employee-image {
-        width: 88px;
-        height: 54px;
-    }
-    .settings-image {
-        width: 70px;
-        height: 40px;
-    }
 }

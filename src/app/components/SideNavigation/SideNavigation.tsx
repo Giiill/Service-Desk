@@ -4,46 +4,35 @@ import Logo from'./images/Logo.svg'
 import ApplicationImage from'./images/Application.svg'
 import EmployeeImage from './images/Employees.svg'
 import SettingsImage from './images/Settings.svg'
-import Link from 'next/link';
+import CustomLink from './CustomLink/CustomLink';
 
 const SideNavigation = () => {
     return (
         <div className="side-navigation">
-            <div className='btn-div'>
-            <Image
-            src={Logo}
-            alt="My Image"
-            className='logo-image'
-            />
-        <div className='application-div'>
-            <Link href={'/'}>
-            <Image
-            src={ApplicationImage}
-            alt="My Image"
-            className='application-image'
-            />
-            </Link>
-        </div>
-
-        <div className='employee-div'>
-            <Link href={'/'}>
-            <Image
-            src={EmployeeImage}
-            alt="My Image"
-            className='employee-image'
-            />
-            </Link>
-        </div>
-
-        <div className='settings-div'>
-            <Link href={'/'}>
-            <Image
-            src={SettingsImage}
-            alt="My Image"
-            className='setting-image'
-            />
-            </Link>
-        </div>
+        <div className='btn-div'>
+        <Image
+        src={Logo}
+        alt="My Image"
+        className='logo-image'
+        />
+        <CustomLink
+        href="/"
+        src={ApplicationImage}
+        alt="Application Image"
+        className="application-div"
+      />
+      <CustomLink
+        href="/"
+        src={EmployeeImage}
+        alt="Employee Image"
+        className="employee-div"
+      />
+      <CustomLink
+        href="/"
+        src={SettingsImage}
+        alt="Settings Image"
+        className="settings-div"
+      />
 
             </div>
         </div>
