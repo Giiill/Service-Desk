@@ -3,28 +3,29 @@
     width: 1800px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background: #D1E0ED;
     position: sticky;
     top: 0;
 }
 .top-bar-input {
-    width: 680px;
+    width: 580px;
     height: 40px;
     border-radius: 20px;
     padding-left: 17px; 
     font-size: 17px;
     border: 0px;
-    
 }
+.top-bar-input:active, .top-bar-input:hover, .top-bar-input:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid #42AAFF;
 
+}
 .top-bar-input::placeholder {
     float: right;
     margin-right: 15px;
-}
-.top-bar-input:active {
-    border: 0px;
 }
 
 .user-info-div {
@@ -42,15 +43,19 @@
     align-items: center;
     font-weight: bold;
 }
-.main-image {
-    border-radius: 50%;
-}
 .top-bar-searching {
     position: relative; 
     display: inline-block;
     border-radius: 20px;
     border: 1px solid #42AAFF;
     font-size: 17px;
+    margin-right: 880px;
+}
+.top-bar-searching:hover {
+    border: 0;
+}
+.main-image {
+    border-radius: 50%;
 }
 .loupe-input {
     position: absolute; 
@@ -58,22 +63,4 @@
     right: 10px; 
     transform: translateY(-50%); 
     cursor: pointer;
-}
-@media (max-width:720px) {
-    
-    .top-bar-input {
-        width: 280px;
-        height: 35px;
-    }
-    .top-bar-main {
-        width: 100%;
-    }
-    .name-surname-div {
-        display: none; 
-    }
-    .main-image {
-        width: 60px;
-        height: 55px;
-        border-radius: 50%;
-    }
 }
