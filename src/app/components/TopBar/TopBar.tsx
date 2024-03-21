@@ -17,11 +17,11 @@ const TopBar = () => {
             className='loupe-input'
             />
             </div>
-                <Link href={'/'}>
+                <Link className='user-info-div-link' href={'/'}>
             <div className="user-info-div">
                 <div className="name-surname-div">
-                <h1>Name</h1>
-                <h1>Surname</h1>
+                <h1>Name </h1>
+                <h1> Surname</h1>
                 </div>
                 <Image
                 src={MainImage}
