@@ -33,7 +33,6 @@ const SideNavigation = () => {
         alt="Settings Image"
         className="settings-div"
       />
-
             </div>
         </div>
     )

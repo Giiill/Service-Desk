@@ -12,9 +12,10 @@
     width: 72px;
     height: 54px;
     margin-top: 10px;
+    margin-left: 20px;
 }
 .btn-div {
-    width: 50%;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
 }
@@ -37,4 +38,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.settings-div:hover,.employee-div:hover,.application-div:hover {
+    background-color: #01375B;
 }
