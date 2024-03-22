@@ -2,7 +2,7 @@ import './styles.css';
 import Image from 'next/image';
 import MainImage from './images/main-picture.jpg'
 import Link from 'next/link';
-import LoupeImage from './images/loupe.svg'
+import LoupeImage from './images/Seraching.svg'
 
 const TopBar = () => {
     return (
