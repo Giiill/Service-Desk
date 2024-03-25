@@ -1,9 +1,71 @@
 .top-bar-main {
     height: 65px;
-    width: 100%;
+    width: 1800px;
     display: flex;
-    flex-direction: column;
-    background-color: #d1e0ed;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #D1E0ED;
     position: sticky;
     top: 0;
+}
+.top-bar-input {
+    width: 580px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 17px; 
+    font-size: 17px;
+    border: 0px;
+}
+.top-bar-input:active, .top-bar-input:hover, .top-bar-input:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid #42AAFF;
+
+}
+.top-bar-input::placeholder {
+    float: right;
+    margin-right: 15px;
+}
+
+.user-info-div {
+    width: 208px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+.name-surname-div {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+.top-bar-searching {
+    position: relative; 
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid #42AAFF;
+    font-size: 17px;
+    margin-right: 880px;
+}
+.top-bar-searching:hover {
+    border: 0;
+}
+.main-image {
+    border-radius: 50%;
+}
+.loupe-input {
+    position: absolute; 
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%); 
+    cursor: pointer;
+}
+.user-info-div-link {
+    text-decoration: none;
+    color: black;
 }
